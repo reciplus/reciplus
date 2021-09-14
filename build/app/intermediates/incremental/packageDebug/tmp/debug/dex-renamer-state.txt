@@ -1,4 +1,4 @@
-#Sun Sep 12 18:05:24 EDT 2021
+#Tue Sep 14 12:01:56 EDT 2021
 base.0=/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
 renamed.0=classes.dex
+path.0=classes.dex
