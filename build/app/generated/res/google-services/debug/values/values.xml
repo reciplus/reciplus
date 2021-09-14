@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1053936915392-00dj79rhgpckc8mvctrhecmir7m3cri6.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1053936915392</string>
+    <string name="google_api_key" translatable="false">AIzaSyDmm0vHAGR2PhCiZxAXCyEutitQYlYtN0E</string>
+    <string name="google_app_id" translatable="false">1:1053936915392:android:10b72d929e29ece37aae25</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDmm0vHAGR2PhCiZxAXCyEutitQYlYtN0E</string>
+    <string name="google_storage_bucket" translatable="false">reciplus.appspot.com</string>
+    <string name="project_id" translatable="false">reciplus</string>
+</resources>
