@@ -53,37 +53,15 @@ class SignInDemoState extends State<SignInDemo> {
         _currentUser = account;
       });
       if (_currentUser != null) {
-        _handleGetContact(_currentUser!);
+        _handleRefresh();
       }
     });
     _googleSignIn.signInSilently();
   }
 
-  Future<void> _handleGetContact(GoogleSignInAccount user) async {
+  void _handleRefresh() {
     setState(() {
-      _contactText = "Loading contact info...";
-    });
-    final http.Response response = await http.get(
-      Uri.parse('https://people.googleapis.com/v1/people/me/connections'
-          '?requestMask.includeField=person.names'),
-      headers: await user.authHeaders,
-    );
-    if (response.statusCode != 200) {
-      setState(() {
-        _contactText = "People API gave a ${response.statusCode} "
-            "response. Check logs for details.";
-      });
-      print('People API ${response.statusCode} response: ${response.body}');
-      return;
-    }
-    final Map<String, dynamic> data = json.decode(response.body);
-    final String? namedContact = _pickFirstNamedContact(data);
-    setState(() {
-      if (namedContact != null) {
-        _contactText = "I see you know $namedContact!";
-      } else {
-        _contactText = "No contacts to display.";
-      }
+      _contactText = "Refreshed";
     });
   }
 
@@ -119,7 +97,7 @@ class SignInDemoState extends State<SignInDemo> {
     GoogleSignInAccount? user = _currentUser;
     if (user != null) {
       return Column(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        // mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
           ListTile(
             leading: GoogleUserCircleAvatar(
@@ -129,14 +107,26 @@ class SignInDemoState extends State<SignInDemo> {
             subtitle: Text(user.email),
           ),
           const Text("Signed in successfully."),
-          Text(_contactText),
-          ElevatedButton(
-            child: const Text('SIGN OUT'),
-            onPressed: _handleSignOut,
-          ),
-          ElevatedButton(
-            child: const Text('REFRESH'),
-            onPressed: () => _handleGetContact(user),
+          Row(
+            children: <Widget>[
+              Spacer(),
+              Expanded(
+                flex: 3,
+                child: ElevatedButton(
+                  child: const Text('SIGN OUT'),
+                  onPressed: _handleSignOut,
+                ),
+              ),
+              Spacer(),
+              Expanded(
+                flex: 3,
+                child: ElevatedButton(
+                  child: const Text('REFRESH'),
+                  onPressed: () => _handleRefresh(),
+                ),
+              ),
+              Spacer(),
+            ],
           ),
         ],
       );
