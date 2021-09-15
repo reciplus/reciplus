@@ -1,8 +1,10 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
+MaterialColor primarySwatchColor = generateMaterialColor(Palette.primary);
+
 class Palette {
-  static const Color primary = Colors.green;
+  static const Color primary = Colors.blue;
 }
 
 MaterialColor generateMaterialColor(Color color) {

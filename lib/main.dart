@@ -5,13 +5,13 @@ import "package:http/http.dart" as http;
 import 'package:flutter/material.dart';
 import 'package:reciplus/theme.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:reciplus/recipe_page.dart';
 
 GoogleSignIn _googleSignIn = GoogleSignIn(
   // Optional clientId
   // clientId: '479882132969-9i9aqik3jfjd7qhci1nqf0bm2g71rm1u.apps.googleusercontent.com',
   scopes: <String>[
     'email',
-    'https://www.googleapis.com/auth/contacts.readonly',
   ],
 );
 
@@ -25,7 +25,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    MaterialColor primarySwatchColor = generateMaterialColor(Palette.primary);
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -43,7 +42,6 @@ class SignInDemo extends StatefulWidget {
 
 class SignInDemoState extends State<SignInDemo> {
   GoogleSignInAccount? _currentUser;
-  String _contactText = '';
 
   @override
   void initState() {
@@ -53,16 +51,16 @@ class SignInDemoState extends State<SignInDemo> {
         _currentUser = account;
       });
       if (_currentUser != null) {
-        _handleRefresh();
+        // _handleRefresh();
+        print('DEBUG: not logged in');
       }
     });
     _googleSignIn.signInSilently();
   }
 
-  void _handleRefresh() {
-    setState(() {
-      _contactText = "Refreshed";
-    });
+  void _goAddRecipe() {
+    Navigator.push(
+        context, MaterialPageRoute(builder: (context) => const MyApp2()));
   }
 
   String? _pickFirstNamedContact(Map<String, dynamic> data) {
@@ -109,7 +107,7 @@ class SignInDemoState extends State<SignInDemo> {
           const Text("Signed in successfully."),
           Row(
             children: <Widget>[
-              Spacer(),
+              const Spacer(),
               Expanded(
                 flex: 3,
                 child: ElevatedButton(
@@ -117,15 +115,15 @@ class SignInDemoState extends State<SignInDemo> {
                   onPressed: _handleSignOut,
                 ),
               ),
-              Spacer(),
+              const Spacer(),
               Expanded(
                 flex: 3,
                 child: ElevatedButton(
-                  child: const Text('REFRESH'),
-                  onPressed: () => _handleRefresh(),
+                  child: const Text('MY RECIPES'),
+                  onPressed: () => _goAddRecipe(),
                 ),
               ),
-              Spacer(),
+              const Spacer(),
             ],
           ),
         ],

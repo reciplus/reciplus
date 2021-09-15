@@ -30,6 +30,14 @@
           }
         },
         {
+          "client_id": "174140147873-q49gsnpsrg2f51qtmdia8o1pvtm6v54m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reciplus",
+            "certificate_hash": "9a3522e8072c2cc9d55f0dcb4e0e3fed19b68ca1"
+          }
+        },
+        {
           "client_id": "174140147873-qdneirmemr08osvs59r9vo85v5989i6l.apps.googleusercontent.com",
           "client_type": 3
         }
