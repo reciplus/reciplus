@@ -16,10 +16,6 @@
         "source": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat",
-        "source": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/res/drawable/launch_background.xml"
-    },
-    {
         "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },

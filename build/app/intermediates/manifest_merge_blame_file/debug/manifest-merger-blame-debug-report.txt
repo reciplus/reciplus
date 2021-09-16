@@ -5,7 +5,7 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
+8        android:minSdkVersion="21"
 9        android:targetSdkVersion="30" />
 10    <!--
 11         Flutter needs it to communicate with the running application
@@ -14,117 +14,282 @@
 14    <uses-permission android:name="android.permission.INTERNET" />
 14-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/debug/AndroidManifest.xml:6:5-66
 14-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/debug/AndroidManifest.xml:6:22-64
-15
-16    <application
-16-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:3:4-40:19
-17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/661916236e43717cc696f8739fdee049/core-1.1.0/AndroidManifest.xml:24:18-86
-18        android:debuggable="true"
-19        android:icon="@mipmap/ic_launcher"
-19-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:5:9-43
-20        android:label="reciplus" >
-20-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:4:9-33
-21        <activity
-21-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:6:9-34:20
-22            android:name="com.example.reciplus.MainActivity"
-22-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:7:13-41
-23            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-23-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:10:13-163
-24            android:hardwareAccelerated="true"
-24-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:11:13-47
-25            android:launchMode="singleTop"
-25-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:8:13-43
-26            android:theme="@style/LaunchTheme"
-26-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:9:13-47
-27            android:windowSoftInputMode="adjustResize" >
-27-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:12:13-55
-28
-29            <!--
-30                 Specifies an Android theme to apply to this Activity as soon as
-31                 the Android process has started. This theme is visible to the user
-32                 while the Flutter UI initializes. After that, this theme continues
-33                 to determine the Window background behind the Flutter UI.
-34            -->
-35            <meta-data
-35-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:17:13-20:17
-36                android:name="io.flutter.embedding.android.NormalTheme"
-36-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:18:15-70
-37                android:resource="@style/NormalTheme" />
-37-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:19:15-52
-38            <!--
-39                 Displays an Android View that continues showing the launch screen
-40                 Drawable until Flutter paints its first frame, then this splash
-41                 screen fades out. A splash screen is useful to avoid any visual
-42                 gap between the end of Android's launch screen and the painting of
-43                 Flutter's first frame.
-44            -->
-45            <meta-data
-45-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:26:13-29:17
-46                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-46-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:27:15-79
-47                android:resource="@drawable/launch_background" />
-47-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:28:15-61
-48
-49            <intent-filter>
-49-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:30:13-33:29
-50                <action android:name="android.intent.action.MAIN" />
-50-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:31:17-68
-50-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:31:25-66
-51
-52                <category android:name="android.intent.category.LAUNCHER" />
-52-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:32:17-76
-52-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:32:27-74
-53            </intent-filter>
-54        </activity>
-55        <!--
-56             Don't delete the meta-data below.
-57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-58        -->
-59        <meta-data
-59-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:37:9-39:33
-60            android:name="flutterEmbedding"
-60-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:38:13-44
-61            android:value="2" />
-61-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:39:13-30
-62
-63        <activity
-63-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
-64            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-64-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
-65            android:excludeFromRecents="true"
-65-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
-66            android:exported="false"
-66-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
-67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-67-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
-68        <!--
-69            Service handling Google Sign-In user revocation. For apps that do not integrate with
-70            Google Sign-In, this service will never be started.
-71        -->
-72        <service
-72-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
-73            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-73-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
-74            android:exported="true"
-74-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
-75            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-75-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
-76
-77        <activity
-77-->[com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
-78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-78-->[com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
-79            android:exported="false"
-79-->[com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
-80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-80-->[com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
-81
-82        <meta-data
-82-->[com.google.android.gms:play-services-basement:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79036d3d0d1acac037763d98042ed071/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
-83            android:name="com.google.android.gms.version"
-83-->[com.google.android.gms:play-services-basement:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79036d3d0d1acac037763d98042ed071/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
-84            android:value="@integer/google_play_services_version" />
-84-->[com.google.android.gms:play-services-basement:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79036d3d0d1acac037763d98042ed071/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
-85    </application>
-86
-87</manifest>
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
+15-->[:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-62
+16
+17    <uses-feature android:name="android.hardware.camera" />
+17-->[:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-60
+17-->[:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:11:19-57
+18
+19    <uses-permission android:name="android.permission.FLASHLIGHT" />
+19-->[:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-69
+19-->[:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-66
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+20-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+21
+22    <application
+22-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:3:4-40:19
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.3.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/12d00ab493de1a38e7bc1514bbfc98bf/core-1.3.1/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:5:9-43
+26        android:label="reciplus"
+26-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:4:9-33
+27        android:largeHeap="true"
+27-->[:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-33
+28        android:theme="@style/Theme.AppCompat.NoActionBar" >
+28-->[:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-59
+29        <activity
+29-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:6:9-34:20
+30            android:name="com.example.reciplus.MainActivity"
+30-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:7:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:10:13-163
+32            android:hardwareAccelerated="true"
+32-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:11:13-47
+33            android:launchMode="singleTop"
+33-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:8:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:9:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:12:13-55
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+43-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:17:13-20:17
+44                android:name="io.flutter.embedding.android.NormalTheme"
+44-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:18:15-70
+45                android:resource="@style/NormalTheme" />
+45-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:19:15-52
+46            <!--
+47                 Displays an Android View that continues showing the launch screen
+48                 Drawable until Flutter paints its first frame, then this splash
+49                 screen fades out. A splash screen is useful to avoid any visual
+50                 gap between the end of Android's launch screen and the painting of
+51                 Flutter's first frame.
+52            -->
+53            <meta-data
+53-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:26:13-29:17
+54                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+54-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:27:15-79
+55                android:resource="@drawable/launch_background" />
+55-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:28:15-61
+56
+57            <intent-filter>
+57-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:30:13-33:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:31:17-68
+58-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:31:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:32:17-76
+60-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:32:27-74
+61            </intent-filter>
+62        </activity>
+63        <!--
+64             Don't delete the meta-data below.
+65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+66        -->
+67        <meta-data
+67-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:37:9-39:33
+68            android:name="flutterEmbedding"
+68-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:38:13-44
+69            android:value="2" />
+69-->/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:39:13-30
+70
+71        <service
+71-->[:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+72            android:name="com.google.firebase.components.ComponentDiscoveryService"
+72-->[:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+73            android:directBootAware="true"
+73-->[com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+74            android:exported="false" >
+74-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+75            <meta-data
+75-->[:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+76-->[:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+78            <meta-data
+78-->[:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+79-->[:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+82-->[:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+85                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+85-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:32:13-34:85
+88                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+88-->[com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:33:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:34:17-82
+90        </service>
+91
+92        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
+92-->[:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-91
+92-->[:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:18:19-88
+93        <activity
+93-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+94            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+94-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+95            android:excludeFromRecents="true"
+95-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+96            android:exported="true"
+96-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+97            android:launchMode="singleTask"
+97-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+98-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+99            <intent-filter>
+99-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+100                <action android:name="android.intent.action.VIEW" />
+100-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+100-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+102-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+103                <category android:name="android.intent.category.BROWSABLE" />
+103-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+103-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+104
+105                <data
+105-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+106                    android:host="firebase.auth"
+106-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+107                    android:path="/"
+107-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+108                    android:scheme="genericidp" />
+108-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+109            </intent-filter>
+110        </activity>
+111        <activity
+111-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+112            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+112-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+113            android:excludeFromRecents="true"
+113-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+114            android:exported="true"
+114-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+115            android:launchMode="singleTask"
+115-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+116-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+117            <intent-filter>
+117-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+118                <action android:name="android.intent.action.VIEW" />
+118-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+118-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+119
+120                <category android:name="android.intent.category.DEFAULT" />
+120-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+120-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+121                <category android:name="android.intent.category.BROWSABLE" />
+121-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+121-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+122
+123                <data
+123-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+124                    android:host="firebase.auth"
+124-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+125                    android:path="/"
+125-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+126                    android:scheme="recaptcha" />
+126-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+127            </intent-filter>
+128        </activity>
+129
+130        <service
+130-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+131            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+131-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+132            android:enabled="true"
+132-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+133            android:exported="false" >
+133-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+134            <intent-filter>
+134-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+135                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+135-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+135-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+136
+137                <category android:name="android.intent.category.DEFAULT" />
+137-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+137-->[com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+138            </intent-filter>
+139        </service>
+140
+141        <provider
+141-->[com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+142            android:name="com.google.firebase.provider.FirebaseInitProvider"
+142-->[com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+143            android:authorities="com.example.reciplus.firebaseinitprovider"
+143-->[com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+144            android:directBootAware="true"
+144-->[com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+145            android:exported="false"
+145-->[com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+146            android:initOrder="100" />
+146-->[com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+147
+148        <activity
+148-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+149            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+149-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+150            android:excludeFromRecents="true"
+150-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+151            android:exported="false"
+151-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+152-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+153        <!--
+154            Service handling Google Sign-In user revocation. For apps that do not integrate with
+155            Google Sign-In, this service will never be started.
+156        -->
+157        <service
+157-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+158            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+158-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+159            android:exported="true"
+159-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+160            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+160-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+161
+162        <activity
+162-->[com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:23:9-26:75
+163            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+163-->[com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:24:13-79
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:25:13-37
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:26:13-72
+166
+167        <meta-data
+167-->[com.google.android.gms:play-services-basement:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f8199bd620a9e2f231fa5b8fa423fd61/jetified-play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
+168            android:name="com.google.android.gms.version"
+168-->[com.google.android.gms:play-services-basement:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f8199bd620a9e2f231fa5b8fa423fd61/jetified-play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
+169            android:value="@integer/google_play_services_version" />
+169-->[com.google.android.gms:play-services-basement:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f8199bd620a9e2f231fa5b8fa423fd61/jetified-play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
+170    </application>
+171
+172</manifest>

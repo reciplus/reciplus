@@ -5,40 +5,71 @@ INJECTED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/and
 INJECTED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:1:1-41:12
 INJECTED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:1:1-41:12
 MERGED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:1:1-41:12
+MERGED from [:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:google_sign_in] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:17:1-39:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/cf5b6a0d5e9885043331c29c94609eed/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d7201c04b012ac669a3bf64b9032623/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b88593d3427c3411240eed89259bf6e2/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79036d3d0d1acac037763d98042ed071/jetified-play-services-basement-16.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a2229feef7fd78aee80f70d24b1c1d5f/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4ad056ee21ec8d30b82f1315f22c78bc/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/02e19465f36c78bf66865378838feb91/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/0934695d051a1fd7d1f2fdaaa9748639/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/5f3e904c4e72239d5ca32e485ce38fb3/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/1abcde9166a942dab0a14799e5164441/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/2024572c74dc91dcbf24593c67305aaf/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b97b360420c0c997b90f327a67232e41/jetified-play-services-vision-20.1.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/bf0318752f80343696e1fa66cf6d140f/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/5e064178e6998a1b2062c4dd02be9093/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/ca2d59d6cc887889b28889fa9191c926/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/86472d7b53047bd33d4d37e25cb18ca5/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d7201c04b012ac669a3bf64b9032623/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a57d4bc312fa0d0077b7fc190d60f361/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f319bf58b1e7432c48484be1a915a745/jetified-play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/35d9c2ba46f486783d63838b425f31af/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f3839a3ce5fcd11305d598f6b4cae8fc/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f8199bd620a9e2f231fa5b8fa423fd61/jetified-play-services-basement-17.4.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/7badce08e76d5220b8045d14885556b3/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c1ed6013d1b6b1c2195966628b86ce61/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/cafdb1caa8d034100062b68de8ac45d1/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/83de919d2851128eddf30692507cf153/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/10714c157aeefc8590d763d501bc0ee8/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b216ef210d64f61a66070acc01518640/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a9deaed902011d2bd9a982390cf14c54/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f1f62b15c08de0282c5e0e11ce74c0b3/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c09f27b7cc276eaefd82ccc59b92604b/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/36bc9dde0d2360dbffdf6746df2bb091/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/0f62967053ebb27eb5fe4ac8a8e21551/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/fc68361dba4d84373dea63c1d56e8804/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79240e846e5dd3238337dec1ae4c467d/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d17580104e6ba9f377c375fa6ccebd3a/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a9deaed902011d2bd9a982390cf14c54/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/367a1045e7095d78f69136e2c919c52b/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/aaef5f94885c551b58863ac490fbf85e/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/80be3f883e3518e100d781fb461fdc35/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/e98f33326b3f6cfb7345fa8c95b57153/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b216ef210d64f61a66070acc01518640/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f1f62b15c08de0282c5e0e11ce74c0b3/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/0f62967053ebb27eb5fe4ac8a8e21551/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/71c0cd873a9499d8ad80ce6b22ebb983/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/fc68361dba4d84373dea63c1d56e8804/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/6e75c13ad155f66bc3b9e1efe7fcda68/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b56c6e7a7694e84321ad630e94169198/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/661916236e43717cc696f8739fdee049/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.3.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/12d00ab493de1a38e7bc1514bbfc98bf/core-1.3.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/731eff4c0269f52d9bd1914f10986051/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/8ff7af85977c8e3ecb1a61d7acb368e4/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d937b05c0091e8c26f43672663e37e43/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/174490b4cb7e57f4813595a4da55221b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/8ceb167f07308d9c4a843b976131f381/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/299f67d657deeee9c599ebba82e8b37a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d16e0b646f62ea91ed1bae2e41d92488/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/e5498ca064aaecf5adfe0c98e4137a8f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c726613cb47beead1342d72eb4ca5314/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/67f1c4e80e37949f59021f9094c316e5/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/136d9433395dabb4af868a3beca94f17/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/e9269813307a288ab090f81b77b724ec/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/299f67d657deeee9c599ebba82e8b37a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/01d6288f3bc0e0917fc5e32f13b06a3e/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/055599c08c4051befb5586a4372fa86e/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d16e0b646f62ea91ed1bae2e41d92488/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/e9269813307a288ab090f81b77b724ec/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/01d6288f3bc0e0917fc5e32f13b06a3e/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/136d9433395dabb4af868a3beca94f17/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d26d65b27a2a54fdf2b3e8fd8ac13720/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -58,24 +89,60 @@ INJECTED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/and
 		ADDED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:1:11-69
 application
 ADDED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:3:4-40:19
+MERGED from [:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a2229feef7fd78aee80f70d24b1c1d5f/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a2229feef7fd78aee80f70d24b1c1d5f/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4ad056ee21ec8d30b82f1315f22c78bc/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4ad056ee21ec8d30b82f1315f22c78bc/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/02e19465f36c78bf66865378838feb91/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/02e19465f36c78bf66865378838feb91/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/0934695d051a1fd7d1f2fdaaa9748639/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/0934695d051a1fd7d1f2fdaaa9748639/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b97b360420c0c997b90f327a67232e41/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b97b360420c0c997b90f327a67232e41/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b88593d3427c3411240eed89259bf6e2/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b88593d3427c3411240eed89259bf6e2/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79036d3d0d1acac037763d98042ed071/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79036d3d0d1acac037763d98042ed071/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/661916236e43717cc696f8739fdee049/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/661916236e43717cc696f8739fdee049/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/5e064178e6998a1b2062c4dd02be9093/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/5e064178e6998a1b2062c4dd02be9093/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/86472d7b53047bd33d4d37e25cb18ca5/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/86472d7b53047bd33d4d37e25cb18ca5/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a57d4bc312fa0d0077b7fc190d60f361/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a57d4bc312fa0d0077b7fc190d60f361/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/35d9c2ba46f486783d63838b425f31af/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/35d9c2ba46f486783d63838b425f31af/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f3839a3ce5fcd11305d598f6b4cae8fc/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f3839a3ce5fcd11305d598f6b4cae8fc/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f8199bd620a9e2f231fa5b8fa423fd61/jetified-play-services-basement-17.4.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f8199bd620a9e2f231fa5b8fa423fd61/jetified-play-services-basement-17.4.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/12d00ab493de1a38e7bc1514bbfc98bf/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/12d00ab493de1a38e7bc1514bbfc98bf/core-1.3.1/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/67f1c4e80e37949f59021f9094c316e5/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/67f1c4e80e37949f59021f9094c316e5/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/661916236e43717cc696f8739fdee049/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/12d00ab493de1a38e7bc1514bbfc98bf/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:4:9-33
+	android:largeHeap
+		ADDED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-33
 	android:icon
 		ADDED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:5:9-43
+	android:theme
+		ADDED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-59
 activity#com.example.reciplus.MainActivity
 ADDED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml:6:9-34:20
 	android:launchMode
@@ -122,50 +189,106 @@ uses-sdk
 INJECTED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/cf5b6a0d5e9885043331c29c94609eed/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/cf5b6a0d5e9885043331c29c94609eed/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d7201c04b012ac669a3bf64b9032623/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d7201c04b012ac669a3bf64b9032623/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b88593d3427c3411240eed89259bf6e2/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b88593d3427c3411240eed89259bf6e2/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79036d3d0d1acac037763d98042ed071/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79036d3d0d1acac037763d98042ed071/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a2229feef7fd78aee80f70d24b1c1d5f/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a2229feef7fd78aee80f70d24b1c1d5f/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4ad056ee21ec8d30b82f1315f22c78bc/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4ad056ee21ec8d30b82f1315f22c78bc/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/02e19465f36c78bf66865378838feb91/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/02e19465f36c78bf66865378838feb91/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/0934695d051a1fd7d1f2fdaaa9748639/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/0934695d051a1fd7d1f2fdaaa9748639/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/5f3e904c4e72239d5ca32e485ce38fb3/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/5f3e904c4e72239d5ca32e485ce38fb3/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/1abcde9166a942dab0a14799e5164441/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/1abcde9166a942dab0a14799e5164441/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/2024572c74dc91dcbf24593c67305aaf/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/2024572c74dc91dcbf24593c67305aaf/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b97b360420c0c997b90f327a67232e41/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b97b360420c0c997b90f327a67232e41/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/bf0318752f80343696e1fa66cf6d140f/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/bf0318752f80343696e1fa66cf6d140f/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/5e064178e6998a1b2062c4dd02be9093/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/5e064178e6998a1b2062c4dd02be9093/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/ca2d59d6cc887889b28889fa9191c926/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/ca2d59d6cc887889b28889fa9191c926/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/86472d7b53047bd33d4d37e25cb18ca5/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/86472d7b53047bd33d4d37e25cb18ca5/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d7201c04b012ac669a3bf64b9032623/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d7201c04b012ac669a3bf64b9032623/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a57d4bc312fa0d0077b7fc190d60f361/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a57d4bc312fa0d0077b7fc190d60f361/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f319bf58b1e7432c48484be1a915a745/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f319bf58b1e7432c48484be1a915a745/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/35d9c2ba46f486783d63838b425f31af/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/35d9c2ba46f486783d63838b425f31af/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f3839a3ce5fcd11305d598f6b4cae8fc/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f3839a3ce5fcd11305d598f6b4cae8fc/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f8199bd620a9e2f231fa5b8fa423fd61/jetified-play-services-basement-17.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f8199bd620a9e2f231fa5b8fa423fd61/jetified-play-services-basement-17.4.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/7badce08e76d5220b8045d14885556b3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/7badce08e76d5220b8045d14885556b3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c1ed6013d1b6b1c2195966628b86ce61/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c1ed6013d1b6b1c2195966628b86ce61/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/cafdb1caa8d034100062b68de8ac45d1/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/cafdb1caa8d034100062b68de8ac45d1/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/83de919d2851128eddf30692507cf153/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/83de919d2851128eddf30692507cf153/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/10714c157aeefc8590d763d501bc0ee8/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/10714c157aeefc8590d763d501bc0ee8/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b216ef210d64f61a66070acc01518640/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b216ef210d64f61a66070acc01518640/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a9deaed902011d2bd9a982390cf14c54/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a9deaed902011d2bd9a982390cf14c54/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f1f62b15c08de0282c5e0e11ce74c0b3/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f1f62b15c08de0282c5e0e11ce74c0b3/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c09f27b7cc276eaefd82ccc59b92604b/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c09f27b7cc276eaefd82ccc59b92604b/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/36bc9dde0d2360dbffdf6746df2bb091/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/36bc9dde0d2360dbffdf6746df2bb091/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/0f62967053ebb27eb5fe4ac8a8e21551/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/0f62967053ebb27eb5fe4ac8a8e21551/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/fc68361dba4d84373dea63c1d56e8804/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/fc68361dba4d84373dea63c1d56e8804/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79240e846e5dd3238337dec1ae4c467d/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79240e846e5dd3238337dec1ae4c467d/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d17580104e6ba9f377c375fa6ccebd3a/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d17580104e6ba9f377c375fa6ccebd3a/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a9deaed902011d2bd9a982390cf14c54/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a9deaed902011d2bd9a982390cf14c54/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/367a1045e7095d78f69136e2c919c52b/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/367a1045e7095d78f69136e2c919c52b/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/aaef5f94885c551b58863ac490fbf85e/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/aaef5f94885c551b58863ac490fbf85e/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/80be3f883e3518e100d781fb461fdc35/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/80be3f883e3518e100d781fb461fdc35/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/e98f33326b3f6cfb7345fa8c95b57153/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/e98f33326b3f6cfb7345fa8c95b57153/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b216ef210d64f61a66070acc01518640/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b216ef210d64f61a66070acc01518640/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f1f62b15c08de0282c5e0e11ce74c0b3/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f1f62b15c08de0282c5e0e11ce74c0b3/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/0f62967053ebb27eb5fe4ac8a8e21551/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/0f62967053ebb27eb5fe4ac8a8e21551/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/71c0cd873a9499d8ad80ce6b22ebb983/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/71c0cd873a9499d8ad80ce6b22ebb983/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/fc68361dba4d84373dea63c1d56e8804/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/fc68361dba4d84373dea63c1d56e8804/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/6e75c13ad155f66bc3b9e1efe7fcda68/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/6e75c13ad155f66bc3b9e1efe7fcda68/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b56c6e7a7694e84321ad630e94169198/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/b56c6e7a7694e84321ad630e94169198/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/661916236e43717cc696f8739fdee049/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/661916236e43717cc696f8739fdee049/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/12d00ab493de1a38e7bc1514bbfc98bf/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/12d00ab493de1a38e7bc1514bbfc98bf/core-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/731eff4c0269f52d9bd1914f10986051/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/731eff4c0269f52d9bd1914f10986051/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/8ff7af85977c8e3ecb1a61d7acb368e4/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -174,22 +297,28 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ericwang/.gradl
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d937b05c0091e8c26f43672663e37e43/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/174490b4cb7e57f4813595a4da55221b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/174490b4cb7e57f4813595a4da55221b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/8ceb167f07308d9c4a843b976131f381/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/8ceb167f07308d9c4a843b976131f381/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/299f67d657deeee9c599ebba82e8b37a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/299f67d657deeee9c599ebba82e8b37a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d16e0b646f62ea91ed1bae2e41d92488/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d16e0b646f62ea91ed1bae2e41d92488/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/e5498ca064aaecf5adfe0c98e4137a8f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/e5498ca064aaecf5adfe0c98e4137a8f/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c726613cb47beead1342d72eb4ca5314/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c726613cb47beead1342d72eb4ca5314/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/67f1c4e80e37949f59021f9094c316e5/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/67f1c4e80e37949f59021f9094c316e5/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/136d9433395dabb4af868a3beca94f17/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/136d9433395dabb4af868a3beca94f17/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/e9269813307a288ab090f81b77b724ec/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/e9269813307a288ab090f81b77b724ec/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/299f67d657deeee9c599ebba82e8b37a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/299f67d657deeee9c599ebba82e8b37a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/01d6288f3bc0e0917fc5e32f13b06a3e/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/01d6288f3bc0e0917fc5e32f13b06a3e/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/055599c08c4051befb5586a4372fa86e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/055599c08c4051befb5586a4372fa86e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d16e0b646f62ea91ed1bae2e41d92488/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d16e0b646f62ea91ed1bae2e41d92488/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/e9269813307a288ab090f81b77b724ec/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/e9269813307a288ab090f81b77b724ec/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/01d6288f3bc0e0917fc5e32f13b06a3e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/01d6288f3bc0e0917fc5e32f13b06a3e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/136d9433395dabb4af868a3beca94f17/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/136d9433395dabb4af868a3beca94f17/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d26d65b27a2a54fdf2b3e8fd8ac13720/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/d26d65b27a2a54fdf2b3e8fd8ac13720/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -202,8 +331,158 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/debug/AndroidManifest.xml:6:5-66
 MERGED from [:google_sign_in] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [:google_sign_in] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:26:5-67
 	android:name
 		ADDED from /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/android/app/src/debug/AndroidManifest.xml:6:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_database] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+uses-permission#android.permission.CAMERA
+ADDED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-62
+uses-feature#android.hardware.camera
+ADDED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:11:19-57
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-69
+	android:name
+		ADDED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-66
+activity#com.amolg.flutterbarcodescanner.BarcodeCaptureActivity
+ADDED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-91
+	android:name
+		ADDED from [:flutter_barcode_scanner] /Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:18:19-88
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/9d672778c1860da5c385b0807c0abb6b/jetified-firebase-database-20.0.1/AndroidManifest.xml:33:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
@@ -223,16 +502,16 @@ ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.g
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/4b60f9a9452303e5fdc5f76a2e2c3fcd/jetified-play-services-base-17.4.0/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79036d3d0d1acac037763d98042ed071/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f8199bd620a9e2f231fa5b8fa423fd61/jetified-play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79036d3d0d1acac037763d98042ed071/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f8199bd620a9e2f231fa5b8fa423fd61/jetified-play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/79036d3d0d1acac037763d98042ed071/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.4.0] /Users/ericwang/.gradle/caches/transforms-2/files-2.1/f8199bd620a9e2f231fa5b8fa423fd61/jetified-play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
