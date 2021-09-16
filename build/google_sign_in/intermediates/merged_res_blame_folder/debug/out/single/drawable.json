@@ -1,74 +1,74 @@
 [
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_disabled.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/661916236e43717cc696f8739fdee049/core-1.1.0/res/drawable/notification_icon_background.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/661916236e43717cc696f8739fdee049/core-1.1.0/res/drawable/notification_bg.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/661916236e43717cc696f8739fdee049/core-1.1.0/res/drawable/notification_tile_bg.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/661916236e43717cc696f8739fdee049/core-1.1.0/res/drawable/notification_bg_low.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light_normal.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_disabled.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     }
 ]

@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/color/common_google_signin_btn_tint.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/color/common_google_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/c2decb2903a97873b1397076f613ee2b/jetified-play-services-base-16.0.1/res/color/common_google_signin_btn_text_light.xml"
+        "merged": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\64e0fa16c6127e22b6bc1e33ab220a5b\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_tint.xml"
     }
 ]

@@ -12,23 +12,33 @@ class Ingredient {
   int count = 0;
   int kcal = 0;
   Ingredient(this.name);
+  void _setCalorie(int kcal) {
+    this.kcal = kcal;
+  }
 }
 
 class Recipe {
   String name = '';
   List<Ingredient> ingredients = [];
   int ingredientsCount = 0;
+  int calories = 0;
   Recipe(this.name);
   void _addIngredient(String ingredient) {
     ingredientsCount++;
     Ingredient ing = Ingredient(ingredient);
     ingredients.add(ing);
   }
-
   void _removeIngredient(int index) {
     ingredients.removeAt(index);
     ingredientsCount--;
   }
+  void _updateCalories() {
+    calories = 0;
+    for(int i = 0; i < ingredients.length; i++){
+      calories+= ingredients[i].kcal;
+    }
+  }
+
 }
 
 List<Recipe> recipes = [];
@@ -75,12 +85,8 @@ class _RecipeListPageState extends State<RecipeListPage> {
   TextEditingController recipeController = TextEditingController();
 
   void _addRecipe() {
-    setState(() {
       Recipe rec = Recipe(recipeController.text);
       recipes.add(rec);
-      Navigator.pop(context);
-      recipeController.clear();
-    });
   }
 
   void _removeRecipe(int index) {
@@ -110,9 +116,13 @@ class _RecipeListPageState extends State<RecipeListPage> {
                   context,
                   MaterialPageRoute(builder: (context) => const RecipePage()),
                 );
+                setState(() {
+                  recipes[index]._updateCalories();
+                });
               },
               title: Text(recipes[index].name),
-              trailing: IconButton(
+              subtitle: Text(recipes[index].calories.toString()),
+                  trailing: IconButton(
                 icon: const Icon(Icons.delete),
                 onPressed: () {
                   _removeRecipe(index);
@@ -143,7 +153,13 @@ class _RecipeListPageState extends State<RecipeListPage> {
                 child: const Text('Cancel'),
               ),
               TextButton(
-                onPressed: () => _addRecipe(),
+                onPressed: () {
+                  setState((){
+                    _addRecipe();
+                  });
+                  Navigator.pop(context);
+                  recipeController.clear();
+                },
                 child: const Text('OK'),
               ),
             ],
@@ -176,9 +192,44 @@ class _RecipePageState extends State<RecipePage> {
             return Card(
                 child: ListTile(
               leading: const Icon(Icons.restaurant),
-              onTap: () {},
+              onTap: () {
+                showDialog<String>(
+                  context: context,
+                  builder: (BuildContext context) => AlertDialog(
+                    title: const Text('Ingredient Calorie Count'),
+                    content: TextField(
+                      controller: ingredientController,
+                      decoration: const InputDecoration(
+                        border: OutlineInputBorder(),
+                        labelText: 'Input Calorie Count',
+                      ),
+                    ),
+                    actions: <Widget>[
+                      TextButton(
+                        onPressed: () {
+                          Navigator.pop(context, 'Cancel');
+                          ingredientController.clear();
+                        },
+                        child: const Text('Cancel'),
+                      ),
+                      TextButton(
+                        onPressed: () {
+                          setState(() {
+                            rec.ingredients[index]._setCalorie(int.parse(ingredientController.text));
+                            Navigator.pop(context);
+                            ingredientController.clear();
+                            rec._updateCalories();
+                          });
+                        },
+                        child: const Text('OK'),
+                      ),
+                    ],
+                  ),
+                );
+              },
               title: Text(rec.ingredients[index].name),
-              trailing: IconButton(
+              subtitle: Text(rec.ingredients[index].kcal.toString()),
+                  trailing: IconButton(
                 icon: const Icon(Icons.delete),
                 onPressed: () {
                   setState(() {
@@ -227,7 +278,7 @@ class _RecipePageState extends State<RecipePage> {
                 onPressed: () {
                   setState(() {
                     rec._addIngredient(ingredientController.text);
-                    Navigator.pop(context);
+                    Navigator.pop(context, 'Ok');
                     ingredientController.clear();
                   });
                 },

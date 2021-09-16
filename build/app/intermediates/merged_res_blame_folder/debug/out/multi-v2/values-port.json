@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/5f3e904c4e72239d5ca32e485ce38fb3/appcompat-1.2.0/res/values-port/values-port.xml",
+                    "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\5f3e904c4e72239d5ca32e485ce38fb3\\appcompat-1.2.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
