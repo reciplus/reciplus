@@ -4,6 +4,25 @@
             "outputFile": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
+                    "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/5f3e904c4e72239d5ca32e485ce38fb3/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    },
+                    "to": {
+                        "startLines": "10,13,16",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "715,874,1045",
+                        "endLines": "12,15,18",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "869,1040,1213"
+                    }
+                },
+                {
                     "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/dc01927e0497b685a0915e7f8651b09b/jetified-play-services-auth-16.0.1/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",

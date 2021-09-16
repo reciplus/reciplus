@@ -1,21 +1,23 @@
 import 'dart:async';
-import 'dart:convert' show json;
+// import 'dart:convert' show json;
 
-import "package:http/http.dart" as http;
+// import "package:http/http.dart" as http;
 import 'package:flutter/material.dart';
 import 'package:reciplus/theme.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:reciplus/recipe_page.dart';
+// import 'package:reciplus/database.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 GoogleSignIn _googleSignIn = GoogleSignIn(
-  // Optional clientId
-  // clientId: '479882132969-9i9aqik3jfjd7qhci1nqf0bm2g71rm1u.apps.googleusercontent.com',
   scopes: <String>[
     'email',
   ],
 );
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -30,32 +32,45 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: primarySwatchColor,
       ),
-      home: SignInDemo(),
+      home: const SignInDemo(),
     );
   }
 }
 
 class SignInDemo extends StatefulWidget {
+  const SignInDemo({Key? key}) : super(key: key);
+
   @override
   State createState() => SignInDemoState();
 }
 
 class SignInDemoState extends State<SignInDemo> {
+  // Declaring global variables
   GoogleSignInAccount? _currentUser;
+  UserCredential? _credential;
+  String? _uid;
 
+  // Life cycle functions
   @override
   void initState() {
+    initializeFlutterFire();
     super.initState();
     _googleSignIn.onCurrentUserChanged.listen((GoogleSignInAccount? account) {
       setState(() {
         _currentUser = account;
       });
-      if (_currentUser != null) {
-        // _handleRefresh();
-        print('DEBUG: not logged in');
-      }
     });
     _googleSignIn.signInSilently();
+  }
+
+  // Events handlers
+  void initializeFlutterFire() async {
+    try {
+      await Firebase.initializeApp();
+      FirebaseAuth auth = FirebaseAuth.instance;
+    } catch (e) {
+      print(e);
+    }
   }
 
   void _goAddRecipe() {
@@ -63,34 +78,30 @@ class SignInDemoState extends State<SignInDemo> {
         context, MaterialPageRoute(builder: (context) => const MyApp2()));
   }
 
-  String? _pickFirstNamedContact(Map<String, dynamic> data) {
-    final List<dynamic>? connections = data['connections'];
-    final Map<String, dynamic>? contact = connections?.firstWhere(
-      (dynamic contact) => contact['names'] != null,
-      orElse: () => null,
-    );
-    if (contact != null) {
-      final Map<String, dynamic>? name = contact['names'].firstWhere(
-        (dynamic name) => name['displayName'] != null,
-        orElse: () => null,
-      );
-      if (name != null) {
-        return name['displayName'];
-      }
-    }
-    return null;
+  Future<void> _handleSignIn() async {
+    UserCredential? credential = await _getAuth();
+    setState(() {
+      _credential = credential;
+    });
   }
 
-  Future<void> _handleSignIn() async {
-    try {
-      await _googleSignIn.signIn();
-    } catch (error) {
-      print(error);
-    }
+  Future<UserCredential> _getAuth() async {
+    final googleUser = await _googleSignIn.signIn();
+    final GoogleSignInAuthentication? googleAuth =
+        await googleUser?.authentication;
+    final credential = GoogleAuthProvider.credential(
+      accessToken: googleAuth?.accessToken,
+      idToken: googleAuth?.idToken,
+    );
+    setState(() {
+      _uid = FirebaseAuth.instance.currentUser?.uid;
+    });
+    return await FirebaseAuth.instance.signInWithCredential(credential);
   }
 
   Future<void> _handleSignOut() => _googleSignIn.disconnect();
 
+  // Render display
   Widget _buildBody() {
     GoogleSignInAccount? user = _currentUser;
     if (user != null) {
@@ -101,30 +112,66 @@ class SignInDemoState extends State<SignInDemo> {
             leading: GoogleUserCircleAvatar(
               identity: user,
             ),
-            title: Text(user.displayName ?? ''),
-            subtitle: Text(user.email),
+            title: Text(
+              user.displayName ?? '',
+              style: const TextStyle(
+                color: Colors.white,
+              ),
+            ),
+            subtitle: Text(
+              user.email,
+              style: const TextStyle(
+                color: Colors.white,
+              ),
+            ),
           ),
-          const Text("Signed in successfully."),
-          Row(
-            children: <Widget>[
-              const Spacer(),
-              Expanded(
-                flex: 3,
-                child: ElevatedButton(
-                  child: const Text('SIGN OUT'),
-                  onPressed: _handleSignOut,
-                ),
+          const Spacer(),
+          Container(
+            decoration: const BoxDecoration(
+                border: Border(
+              right: BorderSide(width: 10, color: Color(0x00000000)),
+              left: BorderSide(width: 10, color: Color(0x00000000)),
+            )),
+            child: Text(
+              'Welcome, ${user.displayName}',
+              style: const TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 25,
+                  color: Colors.white),
+              textAlign: TextAlign.center,
+            ),
+          ),
+          const Spacer(),
+          Container(
+            decoration: const BoxDecoration(
+              border: Border(
+                top: BorderSide(width: 10, color: Color(0x00000000)),
+                left: BorderSide(width: 10, color: Color(0x00000000)),
+                right: BorderSide(width: 10, color: Color(0x00000000)),
+                bottom: BorderSide(width: 15, color: Color(0x00000000)),
               ),
-              const Spacer(),
-              Expanded(
-                flex: 3,
-                child: ElevatedButton(
-                  child: const Text('MY RECIPES'),
-                  onPressed: () => _goAddRecipe(),
+            ),
+            child: Row(
+              children: <Widget>[
+                const Spacer(),
+                Expanded(
+                  flex: 5,
+                  child: ElevatedButton(
+                    child: const Text('SIGN OUT'),
+                    onPressed: _handleSignOut,
+                  ),
                 ),
-              ),
-              const Spacer(),
-            ],
+                const Spacer(flex: 2),
+                Expanded(
+                  flex: 5,
+                  child: ElevatedButton(
+                    child: const Text('MY RECIPES'),
+                    onPressed: () => _goAddRecipe(),
+                  ),
+                ),
+                const Spacer(),
+              ],
+            ),
           ),
         ],
       );
@@ -132,7 +179,21 @@ class SignInDemoState extends State<SignInDemo> {
       return Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
-          const Text("You are not currently signed in."),
+          Container(
+            decoration: const BoxDecoration(
+                border: Border(
+              right: BorderSide(width: 10, color: Color(0x00000000)),
+              left: BorderSide(width: 10, color: Color(0x00000000)),
+            )),
+            child: const Text(
+              "Sign in to Begin Your Healthy Journey",
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 30,
+                  color: Colors.white),
+              textAlign: TextAlign.center,
+            ),
+          ),
           ElevatedButton(
             child: const Text('SIGN IN'),
             onPressed: _handleSignIn,
@@ -149,8 +210,17 @@ class SignInDemoState extends State<SignInDemo> {
           title: const Text('Reciplus'),
         ),
         body: ConstrainedBox(
-          constraints: const BoxConstraints.expand(),
-          child: _buildBody(),
-        ));
+            constraints: const BoxConstraints.expand(),
+            child: Container(
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  colorFilter: ColorFilter.mode(
+                      Colors.black.withOpacity(0.35), BlendMode.colorBurn),
+                  image: const AssetImage("assets/images/background.jpeg"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+              child: _buildBody(),
+            )));
   }
 }
