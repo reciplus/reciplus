@@ -28,17 +28,18 @@ class Recipe {
     Ingredient ing = Ingredient(ingredient);
     ingredients.add(ing);
   }
+
   void _removeIngredient(int index) {
     ingredients.removeAt(index);
     ingredientsCount--;
   }
+
   void _updateCalories() {
     calories = 0;
-    for(int i = 0; i < ingredients.length; i++){
-      calories+= ingredients[i].kcal;
+    for (int i = 0; i < ingredients.length; i++) {
+      calories += ingredients[i].kcal;
     }
   }
-
 }
 
 List<Recipe> recipes = [];
@@ -52,21 +53,9 @@ class MyApp2 extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
-        primarySwatch: primarySwatchColor,
-      ),
-      home: const RecipeListPage(title: 'Recipe List'),
+    return const Scaffold(
+      // appBar: AppBar(title: Text('Recipe List')),
+      body: RecipeListPage(title: 'Recipe List'),
     );
   }
 }
@@ -85,8 +74,8 @@ class _RecipeListPageState extends State<RecipeListPage> {
   TextEditingController recipeController = TextEditingController();
 
   void _addRecipe() {
-      Recipe rec = Recipe(recipeController.text);
-      recipes.add(rec);
+    Recipe rec = Recipe(recipeController.text);
+    recipes.add(rec);
   }
 
   void _removeRecipe(int index) {
@@ -98,12 +87,7 @@ class _RecipeListPageState extends State<RecipeListPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(widget.title), actions: <Widget>[
-        IconButton(
-          onPressed: () => Navigator.pop(context),
-          icon: const Icon(Icons.add),
-        )
-      ]),
+      appBar: AppBar(title: Text(widget.title)),
       body: ListView.builder(
           itemCount: recipes.length,
           itemBuilder: (context, index) {
@@ -122,7 +106,7 @@ class _RecipeListPageState extends State<RecipeListPage> {
               },
               title: Text(recipes[index].name),
               subtitle: Text(recipes[index].calories.toString()),
-                  trailing: IconButton(
+              trailing: IconButton(
                 icon: const Icon(Icons.delete),
                 onPressed: () {
                   _removeRecipe(index);
@@ -154,7 +138,7 @@ class _RecipeListPageState extends State<RecipeListPage> {
               ),
               TextButton(
                 onPressed: () {
-                  setState((){
+                  setState(() {
                     _addRecipe();
                   });
                   Navigator.pop(context);
@@ -215,7 +199,8 @@ class _RecipePageState extends State<RecipePage> {
                       TextButton(
                         onPressed: () {
                           setState(() {
-                            rec.ingredients[index]._setCalorie(int.parse(ingredientController.text));
+                            rec.ingredients[index]._setCalorie(
+                                int.parse(ingredientController.text));
                             Navigator.pop(context);
                             ingredientController.clear();
                             rec._updateCalories();
@@ -229,7 +214,7 @@ class _RecipePageState extends State<RecipePage> {
               },
               title: Text(rec.ingredients[index].name),
               subtitle: Text(rec.ingredients[index].kcal.toString()),
-                  trailing: IconButton(
+              trailing: IconButton(
                 icon: const Icon(Icons.delete),
                 onPressed: () {
                   setState(() {
