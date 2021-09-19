@@ -188,7 +188,7 @@ class SignInDemoState extends State<SignInDemo> {
               left: BorderSide(width: 10, color: Color(0x00000000)),
             )),
             child: const Text(
-              "Sign in to Begin Your Healthy Journey",
+              "Sign In to Begin Your Healthy Journey",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 30,

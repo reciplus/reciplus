@@ -17,11 +17,12 @@ class Ingredient {
   String name = '';
   int count = 0;
   int kcal = 0;
+  String id = '';
   Ingredient(this.name);
   Ingredient.cal(this.name, this.kcal);
-  void _setCalorie(int kcal) {
-    this.kcal = kcal;
-  }
+  // void _setCalorie(int kcal) {
+  //   this.kcal = kcal;
+  // }
 
   factory Ingredient.fromJson(Map<String, dynamic> json) {
     return Ingredient.cal(json['foods'][0]['description'] as String,
@@ -47,10 +48,10 @@ class Recipe {
     ingredients.add(ingredient);
   }
 
-  void _removeIngredient(int index) {
-    ingredients.removeAt(index);
-    ingredientsCount--;
-  }
+  // void _removeIngredient(int index) {
+  //   ingredients.removeAt(index);
+  //   ingredientsCount--;
+  // }
 
   void _updateCalories() {
     calories = 0;
@@ -131,7 +132,6 @@ class _RecipeListPageState extends State<RecipeListPage> {
     return recipes
         .add({
           'name': name,
-          'ingredients': ['egg', 'spinarch'],
         })
         .then((value) => getRecipeList())
         .catchError((error) => print('DEBUG: add recipe error: ${error}'));
@@ -212,7 +212,8 @@ class _RecipeListPageState extends State<RecipeListPage> {
                 current = index;
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const RecipePage()),
+                  MaterialPageRoute(
+                      builder: (context) => RecipePage(userid: widget.userid)),
                 );
                 setState(() {
                   recipes[index]._updateCalories();
@@ -271,7 +272,9 @@ class _RecipeListPageState extends State<RecipeListPage> {
 
 //Recipe page class
 class RecipePage extends StatefulWidget {
-  const RecipePage({Key? key}) : super(key: key);
+  const RecipePage({Key? key, required this.userid}) : super(key: key);
+
+  final String userid;
 
   @override
   _RecipePageState createState() => _RecipePageState();
@@ -281,6 +284,92 @@ class _RecipePageState extends State<RecipePage> {
   Recipe rec = recipes[current];
   bool isScanned = false;
   TextEditingController ingredientController = TextEditingController();
+
+  @override
+  void initState() {
+    getIngredientList();
+  }
+
+  void updateRecipeList(querySnapshot) {
+    print('DEBUG: update ingredient list');
+    rec.ingredients = [];
+    rec.ingredientsCount = 0;
+    querySnapshot.docs.forEach((doc) {
+      Ingredient ing = Ingredient.cal(doc['name'], doc['kcal']);
+      ing.id = doc.id;
+      ing.count = doc['count'];
+      rec._addIngredient(ing);
+    });
+    setState(() {});
+  }
+
+  Future<void> getIngredientList() {
+    print('DEBUG: get ingredient list');
+    CollectionReference? ingredients = FirebaseFirestore.instance
+        .collection('users')
+        .doc(widget.userid)
+        .collection('recipes')
+        .doc(rec.id)
+        .collection('ingredients');
+    return ingredients.get().then((QuerySnapshot querySnapshot) {
+      updateRecipeList(querySnapshot);
+    }).catchError((error) => print('DEBUG: add ingredient error: ${error}'));
+  }
+
+  Future<void> addIngredient(ingredient) {
+    print('DEBUG: add ingredient');
+    CollectionReference? ingredients = FirebaseFirestore.instance
+        .collection('users')
+        .doc(widget.userid)
+        .collection('recipes')
+        .doc(rec.id)
+        .collection('ingredients');
+    return ingredients
+        .add({
+          'name': ingredient.name,
+          'kcal': ingredient.kcal,
+          'count': ingredient.count,
+        })
+        .then((value) => getIngredientList())
+        .catchError((error) => print('DEBUG: add ingredient error: ${error}'));
+  }
+
+  Future<void> setCalorie(index, kcal) {
+    print('DEBUG: set calorie');
+    Ingredient ing = rec.ingredients[index];
+    CollectionReference? ingredients = FirebaseFirestore.instance
+        .collection('users')
+        .doc(widget.userid)
+        .collection('recipes')
+        .doc(rec.id)
+        .collection('ingredients');
+    return ingredients
+        .doc(ing.id)
+        .update({
+          'name': ing.name,
+          'kcal': kcal,
+          'count': ing.count,
+        })
+        .then((value) => getIngredientList())
+        .catchError((error) => print('DEBUG: set calorie error: ${error}'));
+  }
+
+  Future<void> removeIngredient(index) {
+    print('DEBUG: remove ingredient');
+    CollectionReference? ingredientsdb = FirebaseFirestore.instance
+        .collection('users')
+        .doc(widget.userid)
+        .collection('recipes')
+        .doc(rec.id)
+        .collection('ingredients');
+    ;
+    return ingredientsdb
+        .doc(rec.ingredients[index].id)
+        .delete()
+        .then((value) => getIngredientList())
+        .catchError(
+            (error) => print('DEBUG: delete ingredient error: ${error}'));
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -315,8 +404,10 @@ class _RecipePageState extends State<RecipePage> {
                       TextButton(
                         onPressed: () {
                           setState(() {
-                            rec.ingredients[index]._setCalorie(
-                                int.parse(ingredientController.text));
+                            // rec.ingredients[index]._setCalorie(
+                            //     int.parse(ingredientController.text));
+                            setCalorie(
+                                index, int.parse(ingredientController.text));
                             Navigator.pop(context);
                             ingredientController.clear();
                             rec._updateCalories();
@@ -334,7 +425,8 @@ class _RecipePageState extends State<RecipePage> {
                 icon: const Icon(Icons.delete),
                 onPressed: () {
                   setState(() {
-                    rec._removeIngredient(index);
+                    // rec._removeIngredient(index);
+                    removeIngredient(index);
                   });
                 },
               ),
@@ -384,12 +476,14 @@ class _RecipePageState extends State<RecipePage> {
                     onPressed: () {
                       setState(() {
                         if (isScanned) {
-                          rec._addIngredient(ingGlobal);
+                          // rec._addIngredient(ingGlobal);
+                          addIngredient(ingGlobal);
                           isScanned = false;
                         } else {
                           Ingredient ing =
                               Ingredient(ingredientController.text);
-                          rec._addIngredient(ing);
+                          // rec._addIngredient(ing);
+                          addIngredient(ing);
                         }
                         Navigator.pop(context, 'Ok');
                         ingredientController.clear();
