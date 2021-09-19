@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
-import 'package:reciplus/theme.dart';
+//import 'package:reciplus/theme.dart';
 import 'package:flutter/services.dart';
+import 'dart:async';
+import 'dart:convert';
+import 'package:http/http.dart' as http;
+import 'dart:io';
+
+//Food API Key PyPubZ1ZrG4PfcyOWfua0Dh9yll9O6Y4X935eRoS
 
 // void main() {
 //   runApp(const MyApp());
@@ -12,9 +18,21 @@ class Ingredient {
   int count = 0;
   int kcal = 0;
   Ingredient(this.name);
+  Ingredient.cal(this.name, this.kcal);
   void _setCalorie(int kcal) {
     this.kcal = kcal;
   }
+
+  factory Ingredient.fromJson(Map<String, dynamic> json) {
+    return Ingredient.cal(json['foods'][0]['description'] as String, json['foods'][0]['foodNutrients'][3]['value'].toInt());
+  }
+
+  void reset() {
+    name = '';
+    kcal = 0;
+    count = 0;
+  }
+
 }
 
 class Recipe {
@@ -23,10 +41,9 @@ class Recipe {
   int ingredientsCount = 0;
   int calories = 0;
   Recipe(this.name);
-  void _addIngredient(String ingredient) {
+  void _addIngredient(Ingredient ingredient) {
     ingredientsCount++;
-    Ingredient ing = Ingredient(ingredient);
-    ingredients.add(ing);
+    ingredients.add(ingredient);
   }
 
   void _removeIngredient(int index) {
@@ -45,6 +62,8 @@ class Recipe {
 List<Recipe> recipes = [];
 int current = -1;
 String barcode = 'Unknown';
+Ingredient ingGlobal = Ingredient('');
+
 
 //Main stateless widget
 class MyApp2 extends StatelessWidget {
@@ -143,6 +162,7 @@ class _RecipeListPageState extends State<RecipeListPage> {
                   });
                   Navigator.pop(context);
                   recipeController.clear();
+                  barcode ='Unknown';
                 },
                 child: const Text('OK'),
               ),
@@ -164,6 +184,7 @@ class RecipePage extends StatefulWidget {
 
 class _RecipePageState extends State<RecipePage> {
   Recipe rec = recipes[current];
+  bool isScanned = false;
   TextEditingController ingredientController = TextEditingController();
 
   @override
@@ -227,7 +248,9 @@ class _RecipePageState extends State<RecipePage> {
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.add),
         tooltip: 'Add New Ingredient',
-        onPressed: () => showDialog<String>(
+        onPressed: () {
+          barcode ='Unknown';
+          showDialog<String>(
           context: context,
           builder: (BuildContext context) => AlertDialog(
             title: const Text('New Ingredient'),
@@ -247,14 +270,17 @@ class _RecipePageState extends State<RecipePage> {
                 child: const Text('Cancel'),
               ),
               TextButton(
-                onPressed: () {
-                  Navigator.push(
+                onPressed: () async {
+                  final result = await Navigator.push(
                     context,
                     MaterialPageRoute(
                         builder: (context) => const BarcodeScanPage()),
                   );
+                  //barcode = result as String;
+                  isScanned = true;
                   setState(() {
-                    ingredientController.text = barcode;
+                    ingredientController.text = result.name;
+                    ingGlobal = result;
                   });
                 },
                 child: const Text('Scan'),
@@ -262,16 +288,24 @@ class _RecipePageState extends State<RecipePage> {
               TextButton(
                 onPressed: () {
                   setState(() {
-                    rec._addIngredient(ingredientController.text);
+                    if (isScanned){
+                      rec._addIngredient(ingGlobal);
+                      isScanned = false;
+                    }else{
+                      Ingredient ing = Ingredient(ingredientController.text);
+                      rec._addIngredient(ing);
+                    }
                     Navigator.pop(context, 'Ok');
                     ingredientController.clear();
+                    //ingGlobal.reset();
                   });
                 },
                 child: const Text('OK'),
               ),
             ],
           ),
-        ),
+        );
+        }
       ),
     );
   }
@@ -282,12 +316,39 @@ class _RecipePageState extends State<RecipePage> {
 
 class BarcodeScanPage extends StatefulWidget {
   const BarcodeScanPage({Key? key}) : super(key: key);
-
   @override
   _BarcodeScanPageState createState() => _BarcodeScanPageState();
 }
 
 class _BarcodeScanPageState extends State<BarcodeScanPage> {
+  late Future<Ingredient> futureIng;
+  Ingredient ing = Ingredient('');
+
+  Future<Ingredient> getFoodData() async {
+    final uri = Uri.parse('https://api.nal.usda.gov/fdc/v1/foods/search?query='+barcode+'&pageSize=1&Api_Key=PyPubZ1ZrG4PfcyOWfua0Dh9yll9O6Y4X935eRoS');
+    print(uri);
+    final response = await http.get(
+      uri,
+      );
+    print(response.statusCode);
+    if (response.statusCode == 200) {
+      return Ingredient.fromJson(jsonDecode(response.body.toString()));
+    } else {
+      throw Exception('Failed to load data');
+    }
+
+  }
+
+  void updateIngredient(Ingredient ing){
+    setState(() {
+      ingGlobal = ing;
+    });
+  }
+  // @override
+  // void initState() {
+  //   super.initState();
+  // }
+
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
@@ -307,7 +368,7 @@ class _BarcodeScanPageState extends State<BarcodeScanPage> {
               ),
               const SizedBox(height: 8),
               Text(
-                barcode,
+                ingGlobal.name,
                 style: const TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.bold,
@@ -316,14 +377,22 @@ class _BarcodeScanPageState extends State<BarcodeScanPage> {
               ),
               const SizedBox(height: 72),
               TextButton(
-                onPressed: scanBarcode,
+                onPressed: () {
+                  Future<Ingredient> temp = scanBarcode();
+                  setState(() {
+                    temp.then((ing) {
+                      print(ing.name + ' '+ ing.kcal.toString());
+                      updateIngredient(ing);
+                    });
+                  });
+                },
                 child: const Text('Start Barcode scan'),
               ),
               Align(
                   alignment: Alignment.bottomRight,
                   child: TextButton(
                     onPressed: () {
-                      Navigator.pop(context);
+                      Navigator.pop(context, ingGlobal);
                     },
                     child: const Text("Done"),
                   ))
@@ -332,22 +401,28 @@ class _BarcodeScanPageState extends State<BarcodeScanPage> {
         ),
       );
 
-  Future<void> scanBarcode() async {
+  Future<Ingredient> scanBarcode() async {
+    String bc;
     try {
-      final bc = await FlutterBarcodeScanner.scanBarcode(
+      bc = await FlutterBarcodeScanner.scanBarcode(
         '#ff6666',
         'Cancel',
         true,
         ScanMode.BARCODE,
       );
 
-      if (!mounted) return;
-
-      setState(() {
-        barcode = bc;
-      });
     } on PlatformException {
-      barcode = 'Failed to get platform version.';
+      bc = 'Failed to get platform version.';
     }
+
+    if (!mounted) {
+      throw Exception('Failed to mount');
+    } else {
+      setState(() => barcode = bc.toString());
+      print(barcode);
+      return getFoodData();
+    }
+
+
   }
 }
