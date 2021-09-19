@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\5f3e904c4e72239d5ca32e485ce38fb3\\appcompat-1.2.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/5f3e904c4e72239d5ca32e485ce38fb3/appcompat-1.2.0/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\values-v24\\values-v24.xml",
+            "outputFile": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/res/merged/debug/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\79240e846e5dd3238337dec1ae4c467d\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/79240e846e5dd3238337dec1ae4c467d/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/google_sign_in/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\marco\\.gradle\\caches\\transforms-2\\files-2.1\\79240e846e5dd3238337dec1ae4c467d\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/ericwang/.gradle/caches/transforms-2/files-2.1/79240e846e5dd3238337dec1ae4c467d/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

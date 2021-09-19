@@ -1,6 +1,13 @@
 com/amolg/flutterbarcodescanner/BarcodeGraphicTracker.java
  com.amolg.flutterbarcodescanner.BarcodeGraphicTracker
  com.amolg.flutterbarcodescanner.BarcodeGraphicTracker$BarcodeUpdateListener
+com/amolg/flutterbarcodescanner/camera/GraphicOverlay.java
+ com.amolg.flutterbarcodescanner.camera.GraphicOverlay
+ com.amolg.flutterbarcodescanner.camera.GraphicOverlay$Graphic
+com/amolg/flutterbarcodescanner/camera/CameraSourcePreview.java
+ com.amolg.flutterbarcodescanner.camera.CameraSourcePreview
+ com.amolg.flutterbarcodescanner.camera.CameraSourcePreview$1
+ com.amolg.flutterbarcodescanner.camera.CameraSourcePreview$SurfaceCallback
 com/amolg/flutterbarcodescanner/BarcodeCaptureActivity.java
  com.amolg.flutterbarcodescanner.BarcodeCaptureActivity
  com.amolg.flutterbarcodescanner.BarcodeCaptureActivity$1
@@ -9,13 +16,6 @@ com/amolg/flutterbarcodescanner/BarcodeCaptureActivity.java
  com.amolg.flutterbarcodescanner.BarcodeCaptureActivity$SCAN_MODE_ENUM
  com.amolg.flutterbarcodescanner.BarcodeCaptureActivity$ScaleListener
  com.amolg.flutterbarcodescanner.BarcodeCaptureActivity$USE_FLASH
-com/amolg/flutterbarcodescanner/camera/CameraSourcePreview.java
- com.amolg.flutterbarcodescanner.camera.CameraSourcePreview
- com.amolg.flutterbarcodescanner.camera.CameraSourcePreview$1
- com.amolg.flutterbarcodescanner.camera.CameraSourcePreview$SurfaceCallback
-com/amolg/flutterbarcodescanner/camera/GraphicOverlay.java
- com.amolg.flutterbarcodescanner.camera.GraphicOverlay
- com.amolg.flutterbarcodescanner.camera.GraphicOverlay$Graphic
 com/amolg/flutterbarcodescanner/FlutterBarcodeScannerPlugin.java
  com.amolg.flutterbarcodescanner.FlutterBarcodeScannerPlugin
  com.amolg.flutterbarcodescanner.FlutterBarcodeScannerPlugin$1

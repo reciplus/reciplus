@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\marco\\Desktop\\Reciplus repo\\reciplus\\build\\flutter_barcode_scanner\\intermediates\\packaged_res\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "source": "/Users/ericwang/Desktop/College Works/Fall_2021/EC463/reciplus/build/flutter_barcode_scanner/intermediates/packaged_res/debug/values-w820dp-v13/values-w820dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

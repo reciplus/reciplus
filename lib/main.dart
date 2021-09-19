@@ -9,6 +9,7 @@ import 'package:reciplus/recipe_page.dart';
 // import 'package:reciplus/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 GoogleSignIn _googleSignIn = GoogleSignIn(
   scopes: <String>[
@@ -48,7 +49,7 @@ class SignInDemoState extends State<SignInDemo> {
   // Declaring global variables
   GoogleSignInAccount? _currentUser;
   UserCredential? _credential;
-  String? _uid;
+  String _uid = '';
 
   // Life cycle functions
   @override
@@ -68,6 +69,7 @@ class SignInDemoState extends State<SignInDemo> {
     try {
       await Firebase.initializeApp();
       FirebaseAuth auth = FirebaseAuth.instance;
+      FirebaseFirestore firestore = FirebaseFirestore.instance;
     } catch (e) {
       print(e);
     }
@@ -75,7 +77,7 @@ class SignInDemoState extends State<SignInDemo> {
 
   void _goAddRecipe() {
     Navigator.push(
-        context, MaterialPageRoute(builder: (context) => const MyApp2()));
+        context, MaterialPageRoute(builder: (context) => MyApp2(uid: _uid)));
   }
 
   Future<void> _handleSignIn() async {
@@ -94,7 +96,7 @@ class SignInDemoState extends State<SignInDemo> {
       idToken: googleAuth?.idToken,
     );
     setState(() {
-      _uid = FirebaseAuth.instance.currentUser?.uid;
+      _uid = FirebaseAuth.instance.currentUser?.uid ?? "";
     });
     return await FirebaseAuth.instance.signInWithCredential(credential);
   }
