@@ -1,5 +1,7 @@
 ## Reciplus
 Reciplus is a cross platform recipe sharing app that helps you eat healthier.
+Project Demo: https://www.youtube.com/watch?v=7kv8Zg78PPk
+Authors: Jean Marc Achkar & Zhaoze Wang
 ### Framework Documentations and Develop References
 1. Link to official Flutter [documentations](https://flutter.dev/docs/get-started/install)
 2. Flutter [Barcode Scanner](https://pub.dev/packages/flutter_barcode_scanner)
